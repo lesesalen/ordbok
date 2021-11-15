@@ -39,7 +39,6 @@ const Results = ({ entries }: { entries: Entry[] | undefined }) => {
 
 const Home: NextPage = () => {
   const [search, setSearch] = useState(filterEntry(""));
-  console.log(search);
 
   return (
     <div className="bg-white max-h-screen min-h-full px-4 py-4 md:grid md:place-items-center">
