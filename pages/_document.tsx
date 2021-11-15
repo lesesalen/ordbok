@@ -14,12 +14,10 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="no" className="h-full">
+      <Html lang="no" className="h-full w-screen overflow-x-hidden">
         <Head />
         <body className="h-full">
-          <div className="bg-white min-h-full px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">
-            <Main />
-          </div>
+          <Main />
           <NextScript />
         </body>
       </Html>
