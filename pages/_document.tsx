@@ -15,7 +15,22 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="no" className="h-full w-screen overflow-x-hidden">
-        <Head />
+        <Head>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+
+          <link rel="canonical" href="https://ordbok.lesesalen.com" />
+          <meta
+            name="description"
+            content="Informatics is confusing, use this"
+          />
+          <meta
+            property="og:description"
+            content="Informatics is confusing, use this"
+          />
+        </Head>
         <body className="h-full">
           <Main />
           <NextScript />
