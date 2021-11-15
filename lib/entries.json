@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Mitt UiB",
+    "aliases": ["mitt", "MittUiB"],
+    "description": "UiB sitt internsystem for fag, kommunikasjon, innleveringer etc"
+  },
+  {
+    "name": "Canvas",
+    "description": "Mitt UiB er en fork av Canvas"
+  },
+
+  {
+    "name": "SEB",
+    "aliases": ["exam browser", "safe exam"],
+    "description": "Forkortelse for Safe Exam Browser"
+  },
+  {
+    "name": "Sebra",
+    "description": "Her oppretter du studentkonto og endrer passord"
+  },
+  {
+    "name": "Konte",
+    "aliases": ["Kont", "konting"],
+    "description": "Nytt eksamensforsøk, normalt tidlig eksamen for studenter som stryker"
+  },
+  {
+    "name": "ii",
+    "aliases": ["institutt", "informatikk"],
+    "description": "Institutt for informatikk"
+  },
+  { "name": "Matnat", "description": "Matematisk-Naturvitenskapelig fakultet" },
+  {
+    "name": "echo",
+    "description": "echo er Fagutvalget for informatikkstudenter"
+  },
+  {
+    "name": "FU",
+    "aliases": ["fuii", "echo"],
+    "description": "Kort for 'Fagutvalget', echos tidligere navn"
+  },
+  {
+    "name": "Høyden",
+    "description": "Hele området rundt UiB sitt campus i Bergen sentrum"
+  },
+  {
+    "name": "RFB",
+    "aliases": ["realfag"],
+    "description": "Realfagsbygget. Hovedbygget til MatNat."
+  },
+  {
+    "name": "Høytek",
+    "aliases": ["HiB"],
+    "description": "Høyteknologisenteret. Thormøhlensgt 55"
+  },
+  {
+    "name": "VilVite",
+    "description": "Undervisningslokaler i nabobygget (som er Vitensenteret)"
+  },
+  {
+    "name": "Allegaten 66",
+    "aliases": ["A66"],
+    "description": "Undervisningslokale ved Matnat"
+  },
+  {
+    "name": "Administrasjonsbygget",
+    "description": "Eksamenslokalet i Solheimsgaten på Danmarksplass"
+  },
+  {
+    "name": "Høyskolen",
+    "aliases": ["HVL", "HPV", "høgskulen"],
+    "description": "Høyskolen på Vestlandet. Ligger ved Kronstad bybanestopp."
+  },
+  { "name": "Oblig", "description": "Obligatorisk oppgave/innlevering" }
+]

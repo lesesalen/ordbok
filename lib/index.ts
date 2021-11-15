@@ -1,3 +1,5 @@
+import entries from "./entries.json";
+
 export interface Entry {
   // The actual name of the entry
   name: string;
@@ -9,11 +11,9 @@ export interface Entry {
   description: string;
 }
 
-const entries: Array<Entry> = [{ name: "Test", description: "None" }];
-
 export const filterEntry = (search: string): Entry[] | undefined => {
   return entries
-    .filter((entry) => {
+    .filter((entry: Entry) => {
       if (entry.name.toLowerCase().includes(search.toLowerCase())) return true;
       if (
         entry.aliases?.some((alias) =>
